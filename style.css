@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+body{
+    font-family: 'Mali', cursive;
+    margin : 0;
+    padding : 0;
+}
+
+main{
+    padding: 15px;
+}
+
+
+footer {
+    padding: 20px;
+    color:salmon;
+    background-color:  brown;
+    font-style: oblique;
+    text-align: center;
+    
+ }
+
+h1#name{
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: 10px;
+    text-align: center;
+    text-shadow: cornsilk 15px;
+    transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    background: navy;
+}
+
+h1#name:hover{
+    font-family: 'Bungee Inline', cursive;
+    background: lightseagreen;
+    color:brown;
+    text-shadow: 1px 2px 2px #ffffff;
+    transform:rotate(2deg);
+    -webkit-transform:rotate(2deg);
+    -moz-transform:rotate(2deg);
+    box-shadow: 2px 4px 3px 2px #222
+}
+
+#biodata{
+    border-radius: 10px; 
+    border-width: 5px; 
+    border-style: dotted; 
+    border-color: tomato; 
+    padding: 5px;
+}
+
+#biodata:hover{
+    background-color: lightpink ;
+    font-family: 'Schoolbell', cursive;
+    border-width: 6px;
+    border-style: double;
+    border-radius: 20px;
+    border-color: hotpink;
+    padding: 5px;
+}
+
+.yuli{
+    width: 30%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    transform:  rotate(+2deg);
+    -o-transform: rotate(+2deg);
+    -webkit-transform:  rotate(+2deg);
+    -moz-transform: rotate(+2deg);
+}
+
+.yuli:hover{
+    width: 50%;
+    object-position: center;
+    object-fit: cover;
+    border-style: dotted;
+    border-radius: 20px;
+    border-color: orangered;
+    box-shadow:  0 3px 6px rgba(0,0,0,.5);
+    transform:  rotate(-1deg);
+    -webkit-transform:  rotate(-1deg);
+    -o-transform:  rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+   
+}
+
+.kwon{
+    width: 40%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 orangered;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(255, 217, 222);
+}
+
+#cutie{
+    border: lightseagreen;
+    border-style: dashed;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: center;
+    background: rgb(250, 205, 154);
+}
+
+#biodata{
+    text-align: center;
+    table-layout: fixed;
+}
+
+.jumbotron {
+    font-size: 20px;
+    text-align: center;
+ }
+
+nav{
+    background-color: salmon;
+}
+
+ nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+    padding: 5px;
+    text-align: center;
+ }
+
+ nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+ }
+
+ nav a:hover{
+     font-size: 20px;
+     color: black;
+     font-weight: 500;
+     font-style: oblique;
+}
+
+#link{
+    background-color: salmon;
+    height: 35px;
+}
